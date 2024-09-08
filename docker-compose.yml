@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  voxel-turf-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: voxel-turf-server
+    ports:
+      - "5728:5728/udp"
+    environment:
+      - SAVE_GAME=your_save_game
+      - SERVER_NAME=Your_Server_Name
+    volumes:
+      - .data/savegames:/opt/voxel_turf/savegames
+      - .data/mods:/opt/voxel_turf/mods
+      - ./configuration:/usr/local/bin/configuration
+    restart: unless-stopped

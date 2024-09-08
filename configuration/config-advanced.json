@@ -1,0 +1,44 @@
+{
+  "saveGame": "world",
+  "serverName": "docker-compose-server",
+  "modIDs": [
+    {
+      "id": 1357159347
+    }
+  ],
+  "serverParams": {
+    "publicGame": "OFF",
+    "dedicated": "OFF",
+    "difficulty": 1,
+    "maxPlayers": 8,
+    "gameMode": "Turf",
+    "genmap": "3064 3064",
+    "biome": "TEMPERATE"
+  },
+  "gameModeVars": {
+    "gm1": "ON",
+    "gm2": 4,
+    "gm3": 1,
+    "gm4": "OFF",
+    "gm5": 1,
+    "gm6": 1000000,
+    "gm7": 1000000,
+    "gm8": 50,
+    "gm9": 100,
+    "gm10": "OFF",
+    "gm11": "OFF",
+    "gm12": 2,
+    "gm13": "ON",
+    "gm14": "ON",
+    "gm15": "0, 1",
+    "gm16": "538, 80",
+    "gm17": "65535, 0",
+    "gm18": "65535, 0",
+    "gm19": "65535, 0",
+    "gm20": "65535, 0",
+    "gm21": "65535, 0",
+    "gm22": "65535, 0",
+    "gm23": "65535, 0",
+    "gm24": "65535, 0"
+  }
+}

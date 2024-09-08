@@ -1,0 +1,19 @@
+{
+  "saveGame": "world",
+  "serverName": "docker-compose-server",
+  "modIDs": [
+  ],
+  "serverParams": {
+    "publicGame": "ON",
+    "dedicated": "OFF",
+    "difficulty": 1,
+    "maxPlayers": 8,
+    "gameMode": "Turf",
+    "genmap": "2048 2048",
+    "biome": "TEMPERATE"
+  },
+  "gameModeVars": {
+   
+  }
+ 
+}
