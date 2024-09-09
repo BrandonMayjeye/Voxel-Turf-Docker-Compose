@@ -13,7 +13,20 @@
 
 
 
+### Linux Installation Instructions
+- for this example the game will be stored in opt/Docker-Games/Voxel-Turf
+- Move the files with ftp or git
+- cd into the opt/Docker-Games/Voxel-Turf directory
+- run chmod +x configuration/start-server.sh to allow execution action as this file is linked from above  
 
+
+
+## Untested Linux Fast Install
+- navigate to any folder
+- run `git clone https://github.com/BrandonMayjeye/Voxel-Turf-Docker-Compose.git`
+- `cd oxel-Turf-Docker-Compose`
+- ` sudo  chmod +x configuration/start-server.`
+- ` sudo docker compose up -d`
 
 
 
